@@ -1518,11 +1518,15 @@
                 <displayed-value>ISBN</displayed-value>
                 <stored-value>isbn</stored-value>
             </pair>
+            <pair>
+                <displayed-value>Course code</displayed-value>
+                <stored-value>Course code</stored-value>
+            </pair>
         </value-pairs>
         <value-pairs value-pairs-name="common_hsauthors" dc-term="author">
             <pair>
-                <displayed-value>Milutin Radotic</displayed-value>
-                <stored-value>Radoyic, Milutin</stored-value>
+                <displayed-value>Milutin Radotić</displayed-value>
+                <stored-value>Radotić, Milutin</stored-value>
             </pair>
             <pair>
                 <displayed-value>Milan Perić</displayed-value>
@@ -1680,6 +1684,51 @@
                 <displayed-value>China</displayed-value>
                 <stored-value>China</stored-value>
             </pair>
+            <pair>
+                <displayed-value>Ghana</displayed-value>
+                <stored-value>Ghana</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Syria</displayed-value>
+                <stored-value>Syria</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>France</displayed-value>
+                <stored-value>France</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Germany</displayed-value>
+                <stored-value>Germany</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Egypt</displayed-value>
+                <stored-value>Egypt</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Bosnia</displayed-value>
+                <stored-value>Bosnia</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Tanzania</displayed-value>
+                <stored-value>Tanzania</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Türkiye</displayed-value>
+                <stored-value>Türkiye</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Palestine</displayed-value>
+                <stored-value>Palestine</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Libya</displayed-value>
+                <stored-value>Libya</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Croatia</displayed-value>
+                <stored-value>Croatia</stored-value>
+            </pair>
+
             <pair>
                 <displayed-value>Other</displayed-value>
                 <stored-value>other</stored-value>
