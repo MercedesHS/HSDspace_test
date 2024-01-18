@@ -131,7 +131,7 @@
                     <dc-schema>dc</dc-schema>
                     <dc-element>identifier</dc-element>
                     <dc-qualifier>url</dc-qualifier>
-                    <repeatable>false</repeatable>
+                    <repeatable>true</repeatable>
                     <label>URL</label>
                     <input-type>onebox</input-type>
                     <hint>Enter the link to this item.</hint>
@@ -170,7 +170,7 @@
                     <repeatable>false</repeatable>
                     <label>Resource Extension</label>
                     <input-type>onebox</input-type>
-                    <hint>Enter the number of pages or duration the format of this item.</hint>
+                    <hint>Enter the number of pages or duration of this item.</hint>
                     <required></required>
                 </field>
             </row>
@@ -182,7 +182,7 @@
                     <repeatable>true</repeatable>
                     <label>Location</label>
                     <input-type value-pairs-name="common_hscoverage">dropdown</input-type>
-                    <hint>Enter a location relevant to the resource</hint>
+                    <hint>Enter a location relevant to the item</hint>
                     <required></required>
                 </field>
             </row>
@@ -309,7 +309,7 @@
                     <repeatable>true</repeatable>
                     <label>Keyword</label>
                     <input-type>onebox</input-type>
-                    <hint>If none of the words of the dictionary describe the resource properly, propose new terms.</hint>
+                    <hint>If none of the words of the dictionary describe the item properly, propose new terms.</hint>
                     <required></required>
                 </field>
             </row>
