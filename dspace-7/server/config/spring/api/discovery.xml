@@ -167,6 +167,7 @@
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterAudience" />
                 <ref bean="searchFilterCoverage" />
+                <ref bean="searchFilterType"/>
                 <ref bean="searchFilterIssued" />
                 <ref bean="searchFilterContentInOriginalBundle"/>
                 <ref bean="searchFilterEntityType"/>
@@ -183,6 +184,7 @@
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterAudience" />
                 <ref bean="searchFilterCoverage" />
+                <ref bean="searchFilterType"/>
                 <ref bean="searchFilterIssued" />
                 <ref bean="searchFilterContentInOriginalBundle"/>
                 <ref bean="searchFilterFileNameInOriginalBundle" />
@@ -2429,6 +2431,9 @@
                 <value>dc.type</value>
             </list>
         </property>
+        <property name="facetLimit" value="5"/>
+        <property name="sortOrderSidebar" value="COUNT"/>
+        <property name="sortOrderFilterPage" value="COUNT"/>
     </bean>
 
     <bean id="searchFilterIdentifier" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
